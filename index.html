@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Polyfills only needed for Firefox and Edge. -->
+    <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <script src="./node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+    <script src="./node_modules/@webcomponents/shadycss/apply-shim.min.js"></script>
+    <!-- <script type="module" src="my-element.js" crossorigin></script> -->
+  </head>
+  <body>
+    <!-- Commenting out the `element-1` below makes the mixin 
+         declared in `element-2` to be applied correctly -->
+    <my-element title="Polymer is GREAT"></my-element>
+    <element-1></element-1>
+    <!-- <element-2></element-2> -->
+  </body>
+</html>

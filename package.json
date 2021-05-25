@@ -1,0 +1,11 @@
+{
+  "name": "lit-element-css-mixin",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@polymer/lit-element": "0.6.4",
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-card": "3.0.1",
+    "@webcomponents/webcomponentsjs": "2.2.1"
+  }
+}
